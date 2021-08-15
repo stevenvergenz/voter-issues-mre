@@ -1,0 +1,1 @@
+export const CIVICS_API_KEY = process.env.CIVICS_API_KEY;

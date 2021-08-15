@@ -1,0 +1,31 @@
+{
+	"name": "voter-issues-mre",
+	"version": "1.0.0",
+	"description": "Get issue-related bills in the legislature, and your reps' contact info",
+	"main": "built/index.js",
+	"scripts": {
+		"build": "tsc --build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/stevenvergenz/voter-issues-mre.git"
+	},
+	"author": "Steven Vergenz",
+	"license": "GPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/stevenvergenz/voter-issues-mre/issues"
+	},
+	"homepage": "https://github.com/stevenvergenz/voter-issues-mre#readme",
+	"devDependencies": {
+		"@types/node": "^16.6.1",
+		"@types/node-fetch": "^2.5.12",
+		"@types/restify": "^8.5.1",
+		"typescript": "^4.3.5"
+	},
+	"dependencies": {
+		"@microsoft/mixed-reality-extension-common": "./lib/microsoft-mixed-reality-extension-common-0.21.0.tgz",
+		"@microsoft/mixed-reality-extension-sdk": "./lib/microsoft-mixed-reality-extension-sdk-0.21.0.tgz",
+		"node-fetch": "^2.6.1",
+		"restify": "^8.5.1"
+	}
+}
